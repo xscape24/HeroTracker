@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    
+    background:linear-gradient(orange, green);
+    
+}
+
+
+
+.headings{
+    text-decoration: underline;
+    font-size:12rem;
+    font-weight:bold;
+    text-transform:uppercase;
+    text-align:center;
+    margin-bottom:5rem;
+}
+
+/*Intro Section*/
+
+#intro{
+    margin-bottom:10rem;
+    display:flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+}
+
+#logo{
+    height:60rem;
+    width:60rem;
+    border-radius:50%;
+    align-items: center;
+    margin-bottom:10rem;
+    border:2rem dashed black;
+    margin-top:5rem;
+}
+
+#get-started-btn{
+    height:18rem;
+    width:32rem;
+    border-radius: 5rem;
+    margin: 0 auto;
+    border:0.5rem solid black;
+    text-align:center;
+    background:linear-gradient(rgb(121, 139, 169),yellow);
+    font-size: clamp(5rem, 2vh,10rem);
+    font-weight:bold;
+    color:black;
+}
+
+
+
+
+/*Features Section */
+
+#features-section{
+    
+    
+    display:flex;
+    flex-direction:column;
+    
+}
+
+#features-header{
+    font-size:12rem;
+    
+}
+
+#features-list{
+    list-style-type:disc; 
+    text-align: center;
+    justify-content: center;
+    margin-bottom:10rem;
+}
+
+.feature-items{
+    font-size:7rem;
+    margin-bottom:2rem;
+}
+
+
+
+/*End of Features Section*/
+
+
+
+/*How It Works Section */
+#how-it-works{
+    margin-bottom:10rem;
+    text-align: center;
+    align-items: center;
+}
+
+#how-it-works-container{
+    display:flex;
+    justify-content: center;
+}
+.circle{
+    border-radius: 50%;
+    height:74rem;
+    width:85rem;
+    font-size:7rem;
+    margin-right:5rem;
+    background-color: rgb(158, 198, 203);
+    justify-content: center;
+    display: flex;
+    text-align:center;
+    align-items: center;
+    border:2px solid black;
+
+    
+}
+
+.arrow {
+    height:12rem;
+    width:12rem;
+    margin-right:10rem;
+    margin-top:5rem;
+    align-items:center;
+}
+
+
+
+/*End of How It Works Section*/
+
+
+
+/*Testemonial Section*/
+
+#testemonial{
+
+
+
+
+}
+
+
+/*End of Testemonial Section*/
