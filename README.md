@@ -38,9 +38,3 @@
 - Integrate **charts or visualizations** for skill progress.
 - Add user **authentication** for personalized dashboards.
 
----
-
-## How to Run Locally
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/xscape24/herotracker1.git
